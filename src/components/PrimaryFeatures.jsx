@@ -12,28 +12,28 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
+    title: 'Maquininhas',
+    description:
+      "Ofereça máquinas de POS e gateway de pagamentos para que os seus clientes possam receber pagamentos de forma rápida e segura, tanto pessoalmente quanto online. É uma ótima opção para ampliar as formas de recebimento e atrair mais clientes.",
+    image: screenshotExpenses,
+  },
+  {
     title: 'Conta Digital',
     description:
       "Facilite o dia a dia dos seus clientes. Eles podem depositar e receber dinheiro de forma rápida e segura, por boleto ou PIX, além de fazer transferências. Tudo sem precisar sair de casa ou enfrentar filas. É fácil, prático e seguro.",
-    image: screenshotPayroll,
+    image: screenshotVatReturns,
   },
   {
     title: 'Cartão de Crédito',
     description:
       "Com o nosso cartão de crédito físico e virtual, os seus clientes podem fazer compras onde quiserem, sem sair de casa. Basta usar o cartão virtual pelo celular ou pelo computador ou o cartão físico nas lojas. É fácil, prático e seguro.",
-    image: screenshotExpenses,
+    image: screenshotPayroll,
   },
   {
     title: 'Benefícios',
     description:
       "A nossa plataforma oferece uma série de produtos para cuidar da saúde e do bem-estar dos seus clientes e dos seus bichinhos de estimação. Alguns dos produtos disponíveis são a telemedicina, a telemedicina veterinária, o seguro odonto e vida, além de descontos em farmácias e assistências em geral. Tudo isso com muita praticidade e segurança.",
-    image: screenshotExpenses,
-  },
-  {
-    title: 'Maquininhas',
-    description:
-      "Ofereça máquinas de POS e gateway de pagamentos para que os seus clientes possam receber pagamentos de forma rápida e segura, tanto pessoalmente quanto online. É uma ótima opção para ampliar as formas de recebimento e atrair mais clientes.",
-    image: screenshotVatReturns,
+    image: screenshotReporting,
   },
   // {
   //   title: 'APIs para integração',
