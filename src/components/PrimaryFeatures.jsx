@@ -12,29 +12,35 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Conta Digital',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      "Facilite o dia a dia dos seus clientes. Eles podem depositar e receber dinheiro de forma rápida e segura, por boleto ou PIX, além de fazer transferências. Tudo sem precisar sair de casa ou enfrentar filas. É fácil, prático e seguro.",
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Cartão de Crédito',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      "Com o nosso cartão de crédito físico e virtual, os seus clientes podem fazer compras onde quiserem, sem sair de casa. Basta usar o cartão virtual pelo celular ou pelo computador ou o cartão físico nas lojas. É fácil, prático e seguro.",
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Benefícios',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+      "A nossa plataforma oferece uma série de produtos para cuidar da saúde e do bem-estar dos seus clientes e dos seus bichinhos de estimação. Alguns dos produtos disponíveis são a telemedicina, a telemedicina veterinária, o seguro odonto e vida, além de descontos em farmácias e assistências em geral. Tudo isso com muita praticidade e segurança.",
+    image: screenshotExpenses,
   },
   {
-    title: 'Reporting',
+    title: 'Maquininhas',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+      "Ofereça máquinas de POS e gateway de pagamentos para que os seus clientes possam receber pagamentos de forma rápida e segura, tanto pessoalmente quanto online. É uma ótima opção para ampliar as formas de recebimento e atrair mais clientes.",
+    image: screenshotVatReturns,
   },
+  // {
+  //   title: 'APIs para integração',
+  //   description:
+  //     'Além de oferecer um software de banco digital totalmente baseado em APIs, também disponibilizamos uma API pública para que os seus clientes possam integrar facilmente diversas funcionalidades em suas contas digitais.',
+  //   image: screenshotReporting,
+  // },
 ]
 
 export function PrimaryFeatures() {
@@ -72,11 +78,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+          Solução de alta qualidade, facilidade e conveniência.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+          Ofereça aos seus clientes uma solução de alta qualidade que inclua facilidade e conveniência, aumentando a satisfação e ampliando o sucesso do seu negócio.
           </p>
         </div>
         <Tab.Group
