@@ -6,53 +6,61 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'O que é a telemedicina?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'A telemedicina é um serviço que permite que os pacientes consultem médicos online, sem precisar sair de casa.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'O que é a telemedicina veterinária?',
+      answer: 'A telemedicina veterinária é um serviço que permite que os donos de animais de estimação consultem veterinários online, sem precisar sair de casa.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'O que é o seguro odonto e vida?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+      'O seguro odonto e vida é um produto que oferece proteção em caso de imprevistos relacionados à saúde bucal e à vida em geral.',
+    },
+    {
+      question: 'O que são as assistências em geral?',
+      answer:
+        'As assistências em geral são serviços que oferecem descontos em farmácias e outros serviços de saúde.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'O que é a conta digital?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'A conta digital é uma conta bancária que pode ser acessada pela internet ou pelo celular, sem a necessidade de ir a uma agência física.',
     },
     {
-      question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+      question: 'Quais as vantagens de ter uma conta digital?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'Algumas vantagens de ter uma conta digital são a facilidade de acesso, a possibilidade de fazer transações online e o gerenciamento de finanças de forma prática.',
     },
     {
-      question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+      question: 'O que é o cartão de crédito físico?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'O cartão de crédito físico é um cartão que pode ser usado para fazer compras onde quiser, seja pessoalmente ou online.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'O que é o cartão de crédito virtual?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'O cartão de crédito virtual é um cartão que pode ser usado apenas para fazer compras online.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'Quais as vantagens de ter um cartão de crédito físico e virtual?',
+      answer: 'As vantagens de ter um cartão de crédito físico e virtual são a facilidade de uso, a possibilidade de fazer compras onde quiser e a segurança nas transações.      ',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question: 'O que é a máquina de POS?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'A máquina de POS é um aparelho que permite que os estabelecimentos recebam pagamentos de forma rápida e segura.',
+    },
+    {
+      question: 'O que é o gateway de pagamentos?',
+      answer:
+        'O gateway de pagamentos é uma ferramenta que permite que os estabelecimentos aceitem pagamentos online de forma fácil e segura.',
     },
   ],
 ]
@@ -78,11 +86,10 @@ export function Faqs() {
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Frequently asked questions
+            Dúvidas frequentes
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            Se não encontrar a resposta para a sua pergunta, entre em contato com nosso time de suporte.
           </p>
         </div>
         <ul
