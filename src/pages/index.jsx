@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TaxPal - Accounting made simple for small businesses</title>
+        <title>Digital Banks - Banking as a Service (BaaS)</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Permita aos seus clientes controlarem suas finanças e realizarem operações bancárias online sem complicações."
         />
       </Head>
       <Header />
