@@ -15,7 +15,7 @@ export function Hero() {
     <Container className="pt-20 pb-16 text-center lg:pt-32">
       <h1 className="mx-auto max-w-4xl font-display text-2xl font-medium tracking-tight text-slate-900 sm:text-4xl">
       Inove e {' '}
-        <span className="relative whitespace-nowrap text-primary">
+        <span className="relative text-primary">
           <svg
             aria-hidden="true"
             viewBox="0 0 418 42"

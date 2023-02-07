@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 #__next {
+  min-width: 100%;
   min-height: 100%;
 }
