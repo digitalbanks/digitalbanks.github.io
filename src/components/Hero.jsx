@@ -4,7 +4,6 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 
 import logoExo from '@/images/logos/exo.png'
-import logoCSU from '@/images/logos/csu.png'
 import logoFacilPay from '@/images/logos/facilpay.png'
 import logoMastercard from '@/images/logos/mastercard.png'
 import logoFractal from '@/images/logos/fractal.png'
@@ -44,7 +43,6 @@ export function Hero() {
             [
               { name: 'Mastercard', logo: logoMastercard },
               { name: 'Facil Pay', logo: logoFacilPay },
-              { name: 'CSU', logo: logoCSU },
             ],
             [
               { name: 'EXO Bank', logo: logoExo },
