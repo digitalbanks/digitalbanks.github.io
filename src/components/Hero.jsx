@@ -32,41 +32,7 @@ export function Hero() {
       Maximize o seu sucesso, atraindo mais clientes e concentrando-se no seu negócio. Nós cuidamos da tecnologia.
       </p>
       
-      <div className="mt-36 lg:mt-44">
-        <p className="font-display text-base text-slate-900">
-          Parceiros e clientes que confiam em nós
-        </p>
-        <ul
-          role="list"
-          className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
-        >
-          {[
-            [
-              { name: 'Mastercard', logo: logoMastercard },
-              { name: 'Facil Pay', logo: logoFacilPay },
-              { name: 'CSU', logo: logoCSU },
-            ],
-            [
-              { name: 'EXO Bank', logo: logoExo },
-              { name: 'Fractal', logo: logoFractal },
-              { name: 'Pride', logo: logoPride },
-            ],
-          ].map((group, groupIndex) => (
-            <li key={groupIndex}>
-              <ul
-                role="list"
-                className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0"
-              >
-                {group.map((company) => (
-                  <li key={company.name} className="flex">
-                    <Image src={company.logo} alt={company.name} unoptimized className='filter grayscale w-auto max-h-8'/>
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ul>
-      </div>
+      
     </Container>
   )
 }

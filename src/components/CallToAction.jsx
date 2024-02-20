@@ -26,9 +26,9 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
           Comece a utilizar nossa solução de Banco Digital imediatamente.
           </p>
-          <Button href="mailto:contato@digitalbankscorp.com" color="white" className="mt-10">
+          {/* <Button href="mailto:contato@digitalbankscorp.com" color="white" className="mt-10">
             Contate-nos
-          </Button>
+          </Button> */}
         </div>
       </Container>
     </section>

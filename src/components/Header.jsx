@@ -102,11 +102,11 @@ export function Header() {
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <Button href="mailto:contato@digitalbankscorp.com" color="blue">
+            {/* <Button href="mailto:contato@digitalbankscorp.com" color="blue">
               <span>
                 Contate-nos <span className="hidden lg:inline">hoje</span>
               </span>
-            </Button>
+            </Button> */}
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>
